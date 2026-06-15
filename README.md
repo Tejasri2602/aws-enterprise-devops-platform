@@ -49,3 +49,21 @@ Upcoming:
 - EKS
 - IAM Roles
 
+
+## Application
+
+Containerized Flask application.
+
+### Endpoints
+
+GET /
+
+GET /health
+
+### Container Platform
+
+- Docker
+- Amazon ECR
+
+
+
