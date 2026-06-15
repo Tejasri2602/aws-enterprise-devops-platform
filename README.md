@@ -111,3 +111,17 @@ Features:
 - Configurable replicas
 - Configurable image versions
 - Configurable services
+
+## Monitoring & Observability
+
+Tools:
+
+- Prometheus
+- Grafana
+
+Features:
+
+- Metrics Collection
+- Dashboard Visualization
+- Service Monitoring
+- Kubernetes Monitoring
