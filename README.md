@@ -131,3 +131,17 @@ Features:
 - Dashboard Visualization
 - Service Monitoring
 - Kubernetes Monitoring
+
+## Python Automation
+
+Scripts Included:
+
+- Health Monitoring
+- Backup Automation
+- Cleanup Operations
+
+Benefits:
+
+- Reduced Manual Tasks
+- Improved Reliability
+- Faster Operations
