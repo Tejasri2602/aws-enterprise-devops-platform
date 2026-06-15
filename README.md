@@ -1,5 +1,11 @@
 
 # AWS Enterprise DevOps Platform
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-blue)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-red)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automation-blue)
 
 ## Project Overview
 
