@@ -1,1 +1,9 @@
 
+{
+  "title": "Enterprise DevOps Dashboard",
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "10s",
+  "panels": []
+}
