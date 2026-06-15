@@ -1,1 +1,10 @@
 
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'enterprise-app'
+
+    static_configs:
+      - targets:
+          - enterprise-service:80
