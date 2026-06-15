@@ -82,3 +82,14 @@ Deployment Target:
 
 - Amazon ECR
 - Amazon EKS (Upcoming)
+## Jenkins CI/CD
+
+Implemented using Jenkins Declarative Pipeline.
+
+Pipeline Stages:
+
+- Checkout
+- Build
+- Validation
+- Deployment Preparation
+ 
