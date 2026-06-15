@@ -66,4 +66,19 @@ GET /health
 - Amazon ECR
 
 
+## CI/CD Pipeline
 
+Implemented using GitHub Actions.
+
+Pipeline Stages:
+
+- Source Checkout
+- Dependency Installation
+- Docker Build
+- AWS Authentication
+- ECR Push
+
+Deployment Target:
+
+- Amazon ECR
+- Amazon EKS (Upcoming)
