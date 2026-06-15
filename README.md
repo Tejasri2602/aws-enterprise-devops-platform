@@ -93,3 +93,21 @@ Pipeline Stages:
 - Validation
 - Deployment Preparation
  
+## Kubernetes Deployment
+
+Components:
+
+- Namespace
+- Deployment
+- Service
+- Ingress
+
+## Helm
+
+Implemented reusable Helm chart for application deployment.
+
+Features:
+
+- Configurable replicas
+- Configurable image versions
+- Configurable services
