@@ -1,1 +1,61 @@
 
+pipeline {
+    agent any
+
+    environment {
+        APP_NAME = "enterprise-devops-platform"
+        IMAGE_TAG = "latest"
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/YOUR_USERNAME/aws-enterprise-devops-platform.git'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                sh '''
+                docker build -t $APP_NAME:$IMAGE_TAG ./application
+                '''
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh '''
+                echo "Running tests..."
+                '''
+            }
+        }
+
+        stage('Docker Image Validation') {
+            steps {
+                sh '''
+                docker images
+                '''
+            }
+        }
+
+        stage('Deploy Ready') {
+            steps {
+                sh '''
+                echo "Image ready for deployment"
+                '''
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline completed successfully'
+        }
+
+        failure {
+            echo 'Pipeline failed'
+        }
+    }
+}
