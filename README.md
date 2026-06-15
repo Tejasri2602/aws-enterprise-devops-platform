@@ -31,3 +31,21 @@ This project demonstrates a production-grade AWS DevOps platform built using:
 ## Status
 
 Phase 1 Completed
+## Terraform Infrastructure
+
+Current Infrastructure:
+
+- VPC
+- Internet Gateway
+- Public Subnets
+- Terraform Variables
+- Terraform Outputs
+
+Upcoming:
+
+- NAT Gateway
+- Private Subnets
+- ECR
+- EKS
+- IAM Roles
+
